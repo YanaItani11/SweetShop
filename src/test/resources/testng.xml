@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Test Suite">
+    <test name="All Tests">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    </listeners>
+    <parameter name= "login" value="oneorder@sweetshop.local"/>
+    <parameter name= "password" value="12345"/>
+
+
+
+</suite>
